@@ -120,7 +120,7 @@
 
                 <data
                     android:host="connect"
-                    android:scheme="element" />
+                    android:scheme="nextchat" />
             </intent-filter>
         </activity>
 
@@ -199,13 +199,13 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="https" />
-                <!-- Note: we can't use "*.element.io" here because it'll intercept the "mas.element.io" domain too. -->
-                <!-- Matching asset file: https://app.element.io/.well-known/assetlinks.json -->
-                <data android:host="app.element.io" />
-                <!-- Matching asset file: https://develop.element.io/.well-known/assetlinks.json -->
-                <data android:host="develop.element.io" />
-                <!-- Matching asset file: https://staging.element.io/.well-known/assetlinks.json -->
-                <data android:host="staging.element.io" />
+                <!-- Note: we can't use "*.nextchat.vn" here because it'll intercept the "mas.nextchat.vn" domain too. -->
+                <!-- Matching asset file: https://nextchat.vn/.well-known/assetlinks.json -->
+                <data android:host="nextchat.vn" />
+                <!-- Matching asset file: https://develop.nextchat.vn/.well-known/assetlinks.json -->
+                <data android:host="develop.nextchat.vn" />
+                <!-- Matching asset file: https://staging.nextchat.vn/.well-known/assetlinks.json -->
+                <data android:host="staging.nextchat.vn" />
             </intent-filter>
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
@@ -214,13 +214,13 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="https" />
-                <data android:host="mobile.element.io" />
+                <data android:host="mobile.nextchat.vn" />
                 <!-- accept only root path -->
                 <data android:path="/" />
             </intent-filter>
         </activity>
 
-        <!-- Activity alias for matrix.to or element permalinks -->
+        <!-- Activity alias for matrix.to or nextchat permalinks -->
         <!-- exported="true" is required to handle android.intent.action.VIEW for URL redirection-->
         <activity-alias
             android:name=".features.permalink.PermalinkHandlerActivity"

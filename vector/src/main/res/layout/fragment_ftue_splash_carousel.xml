@@ -80,7 +80,8 @@
         app:layout_constraintEnd_toEndOf="@id/splashCarouselGutterEnd"
         app:layout_constraintStart_toStartOf="@id/splashCarouselGutterStart"
         app:layout_constraintTop_toBottomOf="@id/loginSplashAlreadyHaveAccount"
-        tools:text="@string/login_splash_create_account" />
+        tools:text="@string/login_splash_create_account"
+        android:visibility="invisible" />
 
     <Space
         android:id="@+id/loginSplashBottomSpace"

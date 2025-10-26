@@ -4,13 +4,16 @@
     android:opacity="opaque">
 
     <!-- Background color -->
-    <item android:drawable="?colorPrimary" />
+    <!-- <item android:drawable="?colorPrimary" /> -->
+
+    <!-- Background color for NextChat -->
+    <item android:drawable="@color/element_system_light" />
 
     <!-- Centered logo -->
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/element_splash_white" />
+            android:src="@drawable/nextchat_splash_white" />
     </item>
 
 </layer-list>

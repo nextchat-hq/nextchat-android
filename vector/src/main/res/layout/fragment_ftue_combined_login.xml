@@ -121,6 +121,7 @@
             app:layout_constraintTop_toBottomOf="@id/selectedServerDescription" />
 
         <View
+            android:id="@+id/serverSelectionDivider"
             android:layout_width="0dp"
             android:layout_height="1dp"
             android:background="?vctr_content_quaternary"
@@ -128,6 +129,14 @@
             app:layout_constraintEnd_toEndOf="@id/loginGutterEnd"
             app:layout_constraintStart_toStartOf="@id/loginGutterStart"
             app:layout_constraintTop_toTopOf="@id/serverSelectionSpacing" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/serverSelectionGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:constraint_referenced_ids="chooseYourServerHeader,selectedServerName,selectedServerDescription,editServerButton,serverSelectionSpacing,serverSelectionDivider" />
+
 
         <androidx.constraintlayout.widget.Group
             android:id="@+id/loginEntryGroup"
@@ -199,14 +208,15 @@
             app:layout_constraintEnd_toEndOf="@id/loginGutterEnd"
             app:layout_constraintHorizontal_bias="1"
             app:layout_constraintStart_toStartOf="@id/loginGutterStart"
-            app:layout_constraintTop_toBottomOf="@id/loginPasswordInput" />
+            app:layout_constraintTop_toBottomOf="@id/loginPasswordInput"
+            android:visibility="gone" />
 
         <Space
             android:id="@+id/actionSpacing"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             app:layout_constraintBottom_toTopOf="@id/loginSubmit"
-            app:layout_constraintHeight_percent="0.02"
+            app:layout_constraintHeight_percent="0.03"
             app:layout_constraintTop_toBottomOf="@id/loginForgotPassword" />
 
         <Button
