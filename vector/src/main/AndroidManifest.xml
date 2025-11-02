@@ -239,10 +239,10 @@
                 <data android:host="matrix.to" />
                 <data
                     android:host="user"
-                    android:scheme="element" />
+                    android:scheme="nextchat" />
                 <data
                     android:host="room"
-                    android:scheme="element" />
+                    android:scheme="nextchat" />
 
             </intent-filter>
         </activity-alias>

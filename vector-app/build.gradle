@@ -135,7 +135,7 @@ project.android.buildTypes.all { buildType ->
 ext.abiVersionCodes = ["armeabi-v7a": 1, "arm64-v8a": 2, "x86": 3, "x86_64": 4].withDefault { 0 }
 
 android {
-    namespace "im.vector.application"
+    namespace "vn.nextchat.application"
     // Due to a bug introduced in Android gradle plugin 3.6.0, we have to specify the ndk version to use
     // Ref: https://issuetracker.google.com/issues/144111441
     ndkVersion "21.3.6528147"
@@ -143,14 +143,14 @@ android {
     compileSdk versions.compileSdk
 
     defaultConfig {
-        applicationId "im.vector.app"
+        applicationId "vn.nextchat.app"
         // Set to API 21: see #405
         minSdk versions.minSdk
         targetSdk versions.targetSdk
         multiDexEnabled true
 
         renderscriptTargetApi 24
-        renderscriptSupportModeEnabled true
+        renderscriptS   upportModeEnabled true
 
         // `develop` branch will have version code from timestamp, to ensure each build from CI has a incremented versionCode.
         // Other branches (main, features, etc.) will have version code based on application version.
@@ -203,7 +203,7 @@ android {
                 // See https://issuetracker.google.com/issues/171133218
                 output.versionCodeOverride = baseVariantVersion + baseAbiVersionCode
                 print "ABI " + output.getFilter(OutputFile.ABI) + " \t-> VersionCode = " + output.versionCode + "\n"
-                output.outputFileName = output.outputFileName.replace("vector-app", "vector")
+                output.outputFileName = output.outputFileName.replace("vector-app", "next-chat")
             }
         }
 
@@ -265,6 +265,7 @@ android {
                 optimizeCode true
                 proguardFiles 'proguard-rules.pro'
             }
+            signingConfig signingConfigs.release
             // signingConfig signingConfigs.release
         }
 

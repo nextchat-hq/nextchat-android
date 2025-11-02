@@ -20,7 +20,7 @@ import im.vector.app.core.utils.checkPermissions
 import im.vector.app.core.utils.onPermissionDeniedDialog
 import im.vector.app.core.utils.onPermissionDeniedSnackbar
 import im.vector.app.core.utils.registerForPermissionsResult
-import im.vector.application.R
+import vn.nextchat.application.R
 import im.vector.application.databinding.ActivityDebugPermissionBinding
 import im.vector.lib.strings.CommonStrings
 import timber.log.Timber

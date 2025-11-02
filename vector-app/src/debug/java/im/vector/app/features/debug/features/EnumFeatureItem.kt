@@ -16,7 +16,7 @@ import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import im.vector.app.core.epoxy.VectorEpoxyHolder
 import im.vector.app.core.epoxy.VectorEpoxyModel
-import im.vector.application.R
+import vn.nextchat.application.R
 
 @EpoxyModelClass
 abstract class EnumFeatureItem : VectorEpoxyModel<EnumFeatureItem.Holder>(R.layout.item_feature) {

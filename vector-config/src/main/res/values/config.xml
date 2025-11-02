@@ -7,9 +7,9 @@
     <string name="matrix_org_server_url" translatable="false">https://nextchat.vn</string>
 
     <!-- Rageshake configuration -->
-    <string name="bug_report_url" translatable="false">https://riot.im/bugreports/submit</string>
-    <string name="bug_report_app_name" translatable="false">riot-android</string>
-    <string name="bug_report_auto_uisi_app_name" translatable="false">element-auto-uisi</string>
+    <string name="bug_report_url" translatable="false">https://nextchat.vn/bugreports/submit</string>
+    <string name="bug_report_app_name" translatable="false">nextchat-android</string>
+    <string name="bug_report_auto_uisi_app_name" translatable="false">nextchat-auto-uisi</string>
 
     <!--
         Pusher config for the application
@@ -26,22 +26,19 @@
     <string name="pusher_app_id" translatable="false">vn.nextchat.app.android</string>
 
     <!-- preferred jitsi domain -->
-    <string name="preferred_jitsi_domain" translatable="false">meet.element.io</string>
+    <string name="preferred_jitsi_domain" translatable="false">meet.nextchat.vn</string>
 
     <string-array name="room_directory_servers" translatable="false">
-        <item>matrix.org</item>
-        <item>gitter.im</item>
+        <item>nextchat.vn</item>
     </string-array>
 
     <!-- Permalink config -->
     <string-array name="permalink_supported_hosts" translatable="false">
-    <!-- Regular Next Chat Web instance -->
-    <item>nextchat.vn</item>
-    <!-- Other known instances of Next Chat Web -->
-    <item>develop.nextchat.vn</item>
-    <item>staging.nextchat.vn</item>
-        <!-- Previous Web instance, kept for compatibility reason -->
-        <item>riot.im</item>
+        <!-- Regular Next Chat Web instance -->
+        <item>nextchat.vn</item>
+        <!-- Other known instances of Next Chat Web -->
+        <item>develop.nextchat.vn</item>
+        <item>staging.nextchat.vn</item>
     </string-array>
 
 </resources>
