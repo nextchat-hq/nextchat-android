@@ -16,6 +16,7 @@
     <color name="palette_polly">#E64F7A</color>
     <color name="palette_melon">#FF812D</color>
 
+    <!-- This is the new Next Chat primary color -->
     <color name="palette_element_green">#3B9BCD</color>
     <color name="palette_element_orange">#D9B072</color>
     <color name="palette_white">#FFFFFF</color>
