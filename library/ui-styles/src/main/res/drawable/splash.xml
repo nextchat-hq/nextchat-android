@@ -6,8 +6,8 @@
     <!-- Background color -->
     <!-- <item android:drawable="?colorPrimary" /> -->
 
-    <!-- Background color for NextChat -->
-    <item android:drawable="@color/element_system_light" />
+    <!-- Background color for NextChat - automatically follows light/dark theme -->
+    <item android:drawable="?vctr_system" />
 
     <!-- Centered logo -->
     <item>
