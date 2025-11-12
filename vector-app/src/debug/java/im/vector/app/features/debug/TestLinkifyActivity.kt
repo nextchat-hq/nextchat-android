@@ -12,8 +12,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import vn.nextchat.application.R
-import im.vector.application.databinding.ActivityTestLinkifyBinding
-import im.vector.application.databinding.ItemTestLinkifyBinding
+import vn.nextchat.application.databinding.ActivityTestLinkifyBinding
+import vn.nextchat.application.databinding.ItemTestLinkifyBinding
 
 class TestLinkifyActivity : AppCompatActivity() {
 

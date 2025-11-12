@@ -10,7 +10,7 @@ package im.vector.app.features.debug.jitsi
 import android.annotation.SuppressLint
 import dagger.hilt.android.AndroidEntryPoint
 import im.vector.app.core.platform.VectorBaseActivity
-import im.vector.application.databinding.ActivityDebugJitsiBinding
+import vn.nextchat.application.databinding.ActivityDebugJitsiBinding
 import org.jitsi.meet.sdk.JitsiMeet
 
 @AndroidEntryPoint

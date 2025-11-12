@@ -16,7 +16,7 @@ import com.airbnb.mvrx.withState
 import im.vector.app.core.epoxy.onClick
 import im.vector.app.core.extensions.toOnOff
 import im.vector.app.core.platform.VectorBaseFragment
-import im.vector.application.databinding.FragmentDebugAnalyticsBinding
+import vn.nextchat.application.databinding.FragmentDebugAnalyticsBinding
 import me.gujun.android.span.span
 
 class DebugAnalyticsFragment : VectorBaseFragment<FragmentDebugAnalyticsBinding>() {
