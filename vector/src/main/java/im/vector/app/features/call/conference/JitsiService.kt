@@ -68,7 +68,7 @@ class JitsiService @Inject constructor(
         // https://github.com/element-hq/element-web/blob/develop/docs/jitsi-dev.md
         // https://github.com/matrix-org/matrix-react-sdk/blob/develop/src/utils/WidgetUtils.ts#L469
         val url = buildString {
-            append("https://app.element.io/jitsi.html")
+            append("https://meet.nextchat.vn/jitsi.html")
             appendParamToUrl("confId", confId)
             append("#conferenceDomain=\$domain")
             append("&conferenceId=\$conferenceId")

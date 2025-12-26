@@ -59,7 +59,7 @@ class JitsiWidgetDataFactoryTest {
 
     private fun createWidgetV1(successful: Boolean): Widget {
         val url = buildString {
-            append("https://app.element.io/jitsi.html")
+            append("https://meet.nextchat.vn/jitsi.html")
             if (successful) {
                 appendParamToUrl("confId", CONF_ID)
             }
