@@ -613,6 +613,11 @@ class HomeActivity :
     override fun handlePrepareMenu(menu: Menu) {
         menu.findItem(R.id.menu_home_init_sync_legacy).isVisible = vectorPreferences.developerMode()
         menu.findItem(R.id.menu_home_init_sync_optimized).isVisible = vectorPreferences.developerMode()
+
+        // Hide Invite Friends from overflow menu
+        menu.findItem(R.id.menu_home_invite_friends)?.isVisible = false
+        // Hide QR Code from overflow menu
+        menu.findItem(R.id.menu_home_qr)?.isVisible = false
     }
 
     override fun handleMenuItemSelected(item: MenuItem): Boolean {
