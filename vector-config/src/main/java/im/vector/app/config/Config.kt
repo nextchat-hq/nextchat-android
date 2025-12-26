@@ -68,10 +68,10 @@ object Config {
      * Can be disabled by providing Analytics.Disabled
      */
     val DEBUG_ANALYTICS_CONFIG = Analytics.Enabled(
-            postHogHost = "https://posthog.element.dev",
-            postHogApiKey = "phc_VtA1L35nw3aeAtHIx1ayrGdzGkss7k1xINeXcoIQzXN",
-            policyLink = "https://element.io/cookie-policy",
-            sentryDSN = "https://f6acc9cfc2024641b28c87ad95e73e66@sentry.tools.element.io/49",
+            postHogHost = "https://us.i.posthog.com",
+            postHogApiKey = "phc_EFsuWuNL6pYo6xcQE5YrWXMzWrvgWnHZfFppwY43GGs",
+            policyLink = "https://nextchat.vn",
+            sentryDSN = "https://f9c032473fb3ba6cfec0a2a8135db8c4@o4510514093817856.ingest.us.sentry.io/4510599055015936",
             sentryEnvironment = "DEBUG"
     )
 
@@ -80,10 +80,10 @@ object Config {
      * Can be disabled by providing Analytics.Disabled
      */
     val RELEASE_ANALYTICS_CONFIG = Analytics.Enabled(
-            postHogHost = "https://posthog.element.io",
-            postHogApiKey = "phc_Jzsm6DTm6V2705zeU5dcNvQDlonOR68XvX2sh1sEOHO",
-            policyLink = "https://element.io/cookie-policy",
-            sentryDSN = "https://f6acc9cfc2024641b28c87ad95e73e66@sentry.tools.element.io/49",
+            postHogHost = "https://us.i.posthog.com",
+            postHogApiKey = "phc_EFsuWuNL6pYo6xcQE5YrWXMzWrvgWnHZfFppwY43GGs",
+            policyLink = "https://nextchat.vn",
+            sentryDSN = "https://f9c032473fb3ba6cfec0a2a8135db8c4@o4510514093817856.ingest.us.sentry.io/4510599055015936",
             sentryEnvironment = "RELEASE"
     )
 
@@ -103,9 +103,5 @@ object Config {
      * Fork maintainers can use this to inform users about their new application if any. Note that you probably also want
      * to replace the resource `replacement_app_icon` too.
      */
-    val sunsetConfig: SunsetConfig = SunsetConfig.Enabled(
-            learnMoreLink = "https://element.io/app-for-productivity",
-            replacementApplicationName = "Element X",
-            replacementApplicationId = "io.element.android.x",
-    )
+    val sunsetConfig: SunsetConfig = SunsetConfig.Disabled
 }
