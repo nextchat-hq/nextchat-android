@@ -55,12 +55,12 @@ class FtueAuthSignUpSignInSelectionFragment :
     private fun render(state: OnboardingViewState) {
         when (state.serverType) {
             ServerType.MatrixOrg -> renderServerInformation(
-                    icon = R.drawable.ic_logo_matrix_org,
+                    icon = R.drawable.ic_logo_nextchat_vn,
                     title = getString(CommonStrings.login_connect_to, state.selectedHomeserver.userFacingUrl.toReducedUrl()),
                     subtitle = getString(CommonStrings.login_server_matrix_org_text)
             )
             ServerType.EMS -> renderServerInformation(
-                    icon = R.drawable.ic_logo_element_matrix_services,
+                    icon = R.drawable.ic_logo_nextchat_matrix_services,
                     title = getString(CommonStrings.login_connect_to_modular),
                     subtitle = state.selectedHomeserver.userFacingUrl.toReducedUrl()
             )
@@ -96,7 +96,7 @@ class FtueAuthSignUpSignInSelectionFragment :
     private fun renderServerInformation(@DrawableRes icon: Int?, title: String, subtitle: String) {
         icon?.let { views.loginSignupSigninServerIcon.setImageResource(it) }
         views.loginSignupSigninServerIcon.isVisible = icon != null
-        views.loginSignupSigninServerIcon.setImageResource(R.drawable.ic_logo_matrix_org)
+        views.loginSignupSigninServerIcon.setImageResource(R.drawable.ic_logo_nextchat_vn)
         views.loginSignupSigninTitle.text = title
         views.loginSignupSigninText.text = subtitle
     }

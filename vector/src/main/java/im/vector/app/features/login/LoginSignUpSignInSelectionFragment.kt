@@ -46,13 +46,13 @@ class LoginSignUpSignInSelectionFragment :
     private fun setupUi(state: LoginViewState) {
         when (state.serverType) {
             ServerType.MatrixOrg -> {
-                views.loginSignupSigninServerIcon.setImageResource(R.drawable.ic_logo_matrix_org)
+                views.loginSignupSigninServerIcon.setImageResource(R.drawable.ic_logo_nextchat_vn)
                 views.loginSignupSigninServerIcon.isVisible = true
                 views.loginSignupSigninTitle.text = getString(CommonStrings.login_connect_to, state.homeServerUrlFromUser.toReducedUrl())
                 views.loginSignupSigninText.text = getString(CommonStrings.login_server_matrix_org_text)
             }
             ServerType.EMS -> {
-                views.loginSignupSigninServerIcon.setImageResource(R.drawable.ic_logo_element_matrix_services)
+                views.loginSignupSigninServerIcon.setImageResource(R.drawable.ic_logo_nextchat_matrix_services)
                 views.loginSignupSigninServerIcon.isVisible = true
                 views.loginSignupSigninTitle.text = getString(CommonStrings.login_connect_to_modular)
                 views.loginSignupSigninText.text = state.homeServerUrlFromUser.toReducedUrl()

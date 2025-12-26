@@ -187,13 +187,13 @@ class FtueAuthLoginFragment :
             when (state.serverType) {
                 ServerType.MatrixOrg -> {
                     views.loginServerIcon.isVisible = true
-                    views.loginServerIcon.setImageResource(R.drawable.ic_logo_matrix_org)
+                    views.loginServerIcon.setImageResource(R.drawable.ic_logo_nextchat_vn)
                     views.loginTitle.text = getString(resId, state.selectedHomeserver.userFacingUrl.toReducedUrl())
                     views.loginNotice.text = getString(CommonStrings.login_server_matrix_org_text)
                 }
                 ServerType.EMS -> {
                     views.loginServerIcon.isVisible = true
-                    views.loginServerIcon.setImageResource(R.drawable.ic_logo_element_matrix_services)
+                    views.loginServerIcon.setImageResource(R.drawable.ic_logo_nextchat_matrix_services)
                     views.loginTitle.text = getString(resId, "Element Matrix Services")
                     views.loginNotice.text = getString(CommonStrings.login_server_modular_text)
                 }
