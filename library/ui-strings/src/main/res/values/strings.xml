@@ -2037,7 +2037,7 @@
     <string name="ftue_auth_choose_server_entry_hint">Server URL</string>
     <string name="ftue_auth_choose_server_ems_title">Want to host your own server?</string>
 
-    <string name="ftue_auth_choose_server_ems_subtitle">NextChat Matrix Services (NMS) is a robust and reliable hosting service for fast, secure and real time communication. Find out how on <a href="${ftue_ems_url}">nextchat.io/nms</a></string>
+    <string name="ftue_auth_choose_server_ems_subtitle">Next Chat Matrix Services (NMS) is a robust and reliable hosting service for fast, secure and real time communication. Find out how on <a href="${ftue_ems_url}">nextchat.vn/nms</a></string>
     <string name="ftue_auth_choose_server_ems_cta">Get in touch</string>
 
     <string name="ftue_auth_terms_title">Server policies</string>
