@@ -194,7 +194,7 @@ class FtueAuthLoginFragment :
                 ServerType.EMS -> {
                     views.loginServerIcon.isVisible = true
                     views.loginServerIcon.setImageResource(R.drawable.ic_logo_nextchat_matrix_services)
-                    views.loginTitle.text = getString(resId, "Element Matrix Services")
+                    views.loginTitle.text = getString(resId, "Next Chat Matrix Services")
                     views.loginNotice.text = getString(CommonStrings.login_server_modular_text)
                 }
                 ServerType.Other -> {
