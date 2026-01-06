@@ -2,7 +2,9 @@
 <androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <im.vector.app.core.preference.VectorPreferenceCategory android:title="@string/settings_developer_mode">
+    <im.vector.app.core.preference.VectorPreferenceCategory
+        android:title="@string/settings_developer_mode"
+        app:isPreferenceVisible="@bool/settings_developer_mode_visible">
 
         <im.vector.app.core.preference.VectorSwitchPreference
             android:defaultValue="false"
@@ -76,12 +78,14 @@
         <im.vector.app.core.preference.VectorPreference
             android:persistent="false"
             android:title="@string/settings_push_rules"
-            app:fragment="im.vector.app.features.settings.push.PushRulesFragment" />
+            app:fragment="im.vector.app.features.settings.push.PushRulesFragment"
+            app:isPreferenceVisible="@bool/settings_push_rules_visible" />
     </im.vector.app.core.preference.VectorPreferenceCategory>
 
     <im.vector.app.core.preference.VectorPreferenceCategory
         android:dependency="SETTINGS_DEVELOPER_MODE_PREFERENCE_KEY"
-        android:title="@string/settings_dev_tools">
+        android:title="@string/settings_dev_tools"
+        app:isPreferenceVisible="@bool/settings_dev_tools_visible">
 
         <im.vector.app.core.preference.VectorPreference
             android:persistent="false"
