@@ -4,10 +4,10 @@
     android:opacity="opaque">
 
     <!-- Background color -->
-    <!-- <item android:drawable="?colorPrimary" /> -->
+    <item android:drawable="?colorPrimary" />
 
     <!-- Background color for NextChat - automatically follows light/dark theme -->
-    <item android:drawable="?vctr_system" />
+    <!-- <item android:drawable="?vctr_system" /> -->
 
     <!-- Centered logo -->
     <item>
