@@ -61,7 +61,8 @@ class PublicRoomsFragment :
         return FragmentPublicRoomsBinding.inflate(inflater, container, false)
     }
 
-    override fun getMenuRes() = R.menu.menu_room_directory
+//  override fun getMenuRes() = R.menu.menu_room_directory // Original Code
+    override fun getMenuRes(): Int = -1 // Disable overflow menu for this screen (Element-Android custom behavior)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
