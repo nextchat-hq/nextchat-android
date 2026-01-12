@@ -1836,8 +1836,7 @@
     <string name="fab_menu_create_chat">Tin nhắn trực tiếp</string>
     <string name="fab_menu_create_room">Phòng</string>
     <string name="room_preview_no_preview_join">Căn phòng này không thể xem trước được. Bạn có muốn tham gia nó không\?</string>
-    <string name="room_preview_not_found">Căn phòng này không thể truy cập vào thời điểm này.
-\nHãy thử lại sau, hoặc yêu cầu quản trị viên phòng kiểm tra xem bạn có quyền truy cập hay không.</string>
+    <string name="room_preview_not_found">Căn phòng này không thể truy cập vào thời điểm này.\nHãy thử lại sau, hoặc yêu cầu quản trị viên phòng kiểm tra xem bạn có quyền truy cập hay không.</string>
     <string name="room_preview_no_preview">Phòng này không thể được xem trước</string>
     <string name="please_wait">Vui lòng chờ…</string>
     <string name="change_room_directory_network">Thay đổi mạng</string>
@@ -2562,8 +2561,7 @@
     <string name="call_unsupported_matrix_rtc_call">Cuộc gọi này chỉ được ứng dụng Next Chat X hỗ trợ.</string>
     <string name="login_splash_sign_in">Đăng nhập</string>
     <string name="error_audio_message_unable_to_play">Không thể phát %1$s</string>
-    <string name="settings_troubleshoot_test_system_settings_permission_failed">${app_name} cần quyền để hiển thị thông báo.
-\nVui lòng trao quyền.</string>
+    <string name="settings_troubleshoot_test_system_settings_permission_failed">${app_name} cần quyền để hiển thị thông báo.\nVui lòng trao quyền.</string>
     <string name="message_report_user">Tố cáo người dùng</string>
     <string name="settings_security_pin_code_use_biometrics_error">Không thể bật xác thực sinh trắc học.</string>
     <string name="threads_labs_enable_notice_message">Máy chủ của bạn hiện không hỗ trợ thớt, nên tính năng này có thể sẽ không ổn định. Có thể sẽ không tìm được một sộ thớt. %sBạn vẫn muốn bật tính năng thớt chứ\?</string>

@@ -1822,7 +1822,7 @@
     <string name="room_filtering_footer_create_new_direct_message">Send a new direct message</string>
     <string name="room_filtering_footer_open_room_directory">View the room directory</string>
 
-    <string name="room_directory_search_hint">Name or ID (#example:matrix.org)</string>
+    <string name="room_directory_search_hint">Name or ID</string>
     <string name="user_directory_search_hint_2">Search by name, ID or mail</string>
 
     <string name="search_hint_room_name">Search Name</string>
@@ -2206,7 +2206,7 @@
     <string name="login_signup_cancel_confirmation_title">Warning</string>
     <string name="login_signup_cancel_confirmation_content">Your account is not created yet. Stop the registration process?</string>
 
-    <string name="login_a11y_choose_matrix_org">Select matrix.org</string>
+    <string name="login_a11y_choose_matrix_org">Select nextchat.vn</string>
     <string name="login_a11y_choose_modular">Select NextChat Matrix Services</string>
     <string name="login_a11y_choose_other">Select a custom homeserver</string>
     <string name="login_a11y_captcha_container">Please perform the captcha challenge</string>
@@ -2225,10 +2225,10 @@
 
     <string name="login_connect_using_matrix_id_submit">Sign in with Matrix ID</string>
     <string name="login_signin_matrix_id_title">Sign in with Matrix ID</string>
-    <string name="login_signin_matrix_id_notice">If you set up an account on a homeserver, use your Matrix ID (e.g. @user:domain.com) and password below.</string>
+    <string name="login_signin_matrix_id_notice">If you set up an account on a homeserver, use your Matrix ID (e.g. @user:nextchat.vn) and password below.</string>
     <string name="login_signin_matrix_id_hint">Matrix ID</string>
     <string name="login_signin_matrix_id_password_notice">If you don’t know your password, go back to reset it.</string>
-    <string name="login_signin_matrix_id_error_invalid_matrix_id">This is not a valid user identifier. Expected format: \'@user:homeserver.org\'</string>
+    <string name="login_signin_matrix_id_error_invalid_matrix_id">This is not a valid user identifier. Expected format: \'@user:nextchat.vn\'</string>
     <string name="autodiscover_well_known_error">Unable to find a valid homeserver. Please check your identifier</string>
     <!-- TODO TO BE REMOVED -->
     <string tools:ignore="UnusedResources" name="login_scan_qr_code">Scan QR code</string>
