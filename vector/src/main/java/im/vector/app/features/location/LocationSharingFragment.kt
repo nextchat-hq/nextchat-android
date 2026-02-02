@@ -21,7 +21,7 @@ import androidx.lifecycle.lifecycleScope
 import com.airbnb.mvrx.fragmentViewModel
 import com.airbnb.mvrx.withState
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.mapbox.mapboxsdk.maps.MapView
+import org.maplibre.android.maps.MapView
 import dagger.hilt.android.AndroidEntryPoint
 import im.vector.app.core.platform.VectorBaseBottomSheetDialogFragment
 import im.vector.app.core.platform.VectorBaseFragment
