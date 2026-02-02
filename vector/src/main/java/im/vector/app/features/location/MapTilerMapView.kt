@@ -19,16 +19,16 @@ import androidx.core.graphics.drawable.toBitmap
 import androidx.core.view.marginBottom
 import androidx.core.view.marginTop
 import androidx.core.view.updateLayoutParams
+import im.vector.app.R
+import im.vector.app.core.utils.DimensionConverter
+import im.vector.lib.strings.CommonStrings
 import org.maplibre.android.geometry.LatLng
-import org.maplibre.android.maps.MapView
 import org.maplibre.android.maps.MapLibreMap
+import org.maplibre.android.maps.MapView
 import org.maplibre.android.maps.Style
 import org.maplibre.android.plugins.annotation.SymbolManager
 import org.maplibre.android.plugins.annotation.SymbolOptions
 import org.maplibre.android.style.layers.Property
-import im.vector.app.R
-import im.vector.app.core.utils.DimensionConverter
-import im.vector.lib.strings.CommonStrings
 import timber.log.Timber
 
 private const val USER_PIN_ID = "user-pin-id"
