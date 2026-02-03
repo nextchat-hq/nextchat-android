@@ -15,8 +15,6 @@ import dagger.hilt.components.SingletonComponent
 import im.vector.app.core.debug.DebugNavigator
 import im.vector.app.core.debug.DebugReceiver
 import im.vector.app.core.debug.LeakDetector
-import okhttp3.Interceptor
-import org.matrix.android.sdk.api.Matrix
 
 @InstallIn(SingletonComponent::class)
 @Module
