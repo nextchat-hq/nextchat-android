@@ -38,7 +38,6 @@ import com.vanniktech.emoji.EmojiManager
 import com.vanniktech.emoji.google.GoogleEmojiProvider
 import dagger.hilt.android.HiltAndroidApp
 import im.vector.app.config.Config
-import im.vector.app.core.debug.FlipperProxy
 import im.vector.app.core.debug.LeakDetector
 import im.vector.app.core.di.ActiveSessionHolder
 import im.vector.app.core.pushers.FcmHelper
@@ -97,7 +96,6 @@ class VectorApplication :
     @Inject lateinit var decryptionFailureTracker: DecryptionFailureTracker
     @Inject lateinit var vectorFileLogger: VectorFileLogger
     @Inject lateinit var vectorAnalytics: VectorAnalytics
-    @Inject lateinit var flipperProxy: FlipperProxy
     @Inject lateinit var matrix: Matrix
     @Inject lateinit var fcmHelper: FcmHelper
     @Inject lateinit var buildMeta: BuildMeta
@@ -121,7 +119,6 @@ class VectorApplication :
         enableStrictModeIfNeeded()
         super.onCreate()
         appContext = this
-        flipperProxy.init(matrix)
         vectorAnalytics.init()
         vectorAnalytics.updateSuperProperties(
                 SuperProperties(
