@@ -208,15 +208,14 @@
             app:layout_constraintEnd_toEndOf="@id/loginGutterEnd"
             app:layout_constraintHorizontal_bias="1"
             app:layout_constraintStart_toStartOf="@id/loginGutterStart"
-            app:layout_constraintTop_toBottomOf="@id/loginPasswordInput"
-            android:visibility="gone" />
+            app:layout_constraintTop_toBottomOf="@id/loginPasswordInput" />
 
         <Space
             android:id="@+id/actionSpacing"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             app:layout_constraintBottom_toTopOf="@id/loginSubmit"
-            app:layout_constraintHeight_percent="0.03"
+            app:layout_constraintHeight_percent="0.02"
             app:layout_constraintTop_toBottomOf="@id/loginForgotPassword" />
 
         <Button
