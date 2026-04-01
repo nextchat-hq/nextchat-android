@@ -1,3 +1,14 @@
+Changes in Element v1.6.54 (2026-04-01)
+=======================================
+
+Features ✨
+----------
+ - Expose service to let Element X access some internal data ([#9109](https://github.com/element-hq/element-android/issues/9109))
+
+Other changes
+-------------
+ - Temporary hide "Verify this device" banner. ([#9130](https://github.com/element-hq/element-android/issues/9130))
+
 Changes in Element v1.6.52 (2026-03-05)
 =======================================
 
