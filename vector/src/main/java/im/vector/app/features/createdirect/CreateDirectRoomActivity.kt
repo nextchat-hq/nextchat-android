@@ -85,6 +85,8 @@ class CreateDirectRoomActivity : SimpleFragmentActivity() {
                             menuResId = R.menu.vector_create_direct_room,
                             submitMenuItemId = R.id.action_create_direct_room,
                             single3pidSelection = true,
+                            showInviteActions = false,
+                            showContactBookAction = false,
                     )
             )
         }
