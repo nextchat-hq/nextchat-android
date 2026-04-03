@@ -56,7 +56,7 @@ class VectorActivityLifecycleCallbacks constructor(private val popupAlertManager
             val packageManager: PackageManager = context.packageManager
 
             // Get all activities from element android
-            activitiesInfo = packageManager.getPackageInfoCompat(context.packageName, PackageManager.GET_ACTIVITIES).activities
+            activitiesInfo = packageManager.getPackageInfoCompat(context.packageName, PackageManager.GET_ACTIVITIES).activities!!
 
             // Get all activities from PermissionController module
             // See https://source.android.com/docs/core/architecture/modular-system/permissioncontroller#package-format
