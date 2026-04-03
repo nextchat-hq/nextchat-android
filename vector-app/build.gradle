@@ -37,7 +37,7 @@ ext.versionMinor = 6
 // Note: even values are reserved for regular release, odd values for hotfix release.
 // When creating a hotfix, you should decrease the value, since the current value
 // is the value for the next regular release.
-ext.versionPatch = 42
+ext.versionPatch = 46
 
 static def getGitTimestamp() {
     def cmd = 'git show -s --format=%ct'
@@ -138,7 +138,7 @@ android {
     namespace "vn.nextchat.application"
     // Due to a bug introduced in Android gradle plugin 3.6.0, we have to specify the ndk version to use
     // Ref: https://issuetracker.google.com/issues/144111441
-    ndkVersion "21.3.6528147"
+    ndkVersion "29.0.14206865"
 
     compileSdk versions.compileSdk
 

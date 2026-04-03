@@ -22,6 +22,7 @@ Cargo.lock
 /fastlane/report.xml
 
 /**/build
+vector-app/gplay/*
 
 # Added by yarn
 /package.json
@@ -31,3 +32,6 @@ Cargo.lock
 
 # For manual dependency to rust crypto sdk
 library/rustCrypto/matrix-rust-sdk-crypto.aar
+
+# For Kilo Code Agent
+.kilo/*
