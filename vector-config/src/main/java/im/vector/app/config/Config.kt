@@ -67,6 +67,8 @@ object Config {
      * The analytics configuration to use for the Debug build type.
      * Can be disabled by providing Analytics.Disabled
      */
+    val DEBUG_ANALYTICS_CONFIG = Analytics.Disabled
+    /**
     val DEBUG_ANALYTICS_CONFIG = Analytics.Enabled(
             postHogHost = "https://us.i.posthog.com",
             postHogApiKey = "phc_EFsuWuNL6pYo6xcQE5YrWXMzWrvgWnHZfFppwY43GGs",
@@ -74,11 +76,14 @@ object Config {
             sentryDSN = "https://f9c032473fb3ba6cfec0a2a8135db8c4@o4510514093817856.ingest.us.sentry.io/4510599055015936",
             sentryEnvironment = "DEBUG"
     )
+     */
 
     /**
      * The analytics configuration to use for the Release build type.
      * Can be disabled by providing Analytics.Disabled
      */
+    val RELEASE_ANALYTICS_CONFIG = Analytics.Disabled
+    /**
     val RELEASE_ANALYTICS_CONFIG = Analytics.Enabled(
             postHogHost = "https://us.i.posthog.com",
             postHogApiKey = "phc_EFsuWuNL6pYo6xcQE5YrWXMzWrvgWnHZfFppwY43GGs",
@@ -86,15 +91,24 @@ object Config {
             sentryDSN = "https://f9c032473fb3ba6cfec0a2a8135db8c4@o4510514093817856.ingest.us.sentry.io/4510599055015936",
             sentryEnvironment = "RELEASE"
     )
+     */
 
     /**
      * The analytics configuration to use for the Nightly build type.
      * Can be disabled by providing Analytics.Disabled
      */
+
+    val NIGHTLY_ANALYTICS_CONFIG = Analytics.Disabled
+    val RELEASE_R_ANALYTICS_CONFIG = Analytics.Disabled
+    val ER_NIGHTLY_ANALYTICS_CONFIG = Analytics.Disabled
+    val ER_DEBUG_ANALYTICS_CONFIG = Analytics.Disabled
+
+    /**
     val NIGHTLY_ANALYTICS_CONFIG = RELEASE_ANALYTICS_CONFIG.copy(sentryEnvironment = "NIGHTLY")
     val RELEASE_R_ANALYTICS_CONFIG = RELEASE_ANALYTICS_CONFIG.copy(sentryEnvironment = "RELEASE-R")
     val ER_NIGHTLY_ANALYTICS_CONFIG = RELEASE_ANALYTICS_CONFIG.copy(sentryEnvironment = "element-r")
     val ER_DEBUG_ANALYTICS_CONFIG = DEBUG_ANALYTICS_CONFIG.copy(sentryEnvironment = "element-r")
+     */
 
     val SHOW_UNVERIFIED_SESSIONS_ALERT_AFTER_MILLIS = 7.days.inWholeMilliseconds // 1 Week
 
