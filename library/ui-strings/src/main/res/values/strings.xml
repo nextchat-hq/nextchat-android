@@ -120,11 +120,10 @@
     <string name="notice_widget_modified">%1$s modified %2$s widget</string>
     <string name="notice_widget_modified_by_you">You modified %1$s widget</string>
 
+    <string name="power_level_owner">Owner</string>
     <string name="power_level_admin">Admin</string>
     <string name="power_level_moderator">Moderator</string>
     <string name="power_level_default">Default</string>
-    <string name="power_level_custom">Custom (%1$d)</string>
-    <string name="power_level_custom_no_value">Custom</string>
 
     <!-- parameter will be a comma separated list of values of notice_power_level_diff -->
     <string name="notice_power_level_changed_by_you">You changed the power level of %1$s.</string>
@@ -685,6 +684,7 @@
     <string name="room_participants_leave_prompt_title">Leave room</string>
     <string name="room_participants_leave_prompt_msg">Are you sure you want to leave the room?</string>
     <string name="room_participants_leave_private_warning">This room is not public. You will not be able to rejoin without an invite.</string>
+    <string name="room_participants_leave_last_admin">You\'re the only admin of this room. Leaving it will mean no one has control over it.</string>
 
     <string name="room_participants_header_direct_chats">Direct Messages</string>
 
@@ -2379,14 +2379,13 @@
 
     <string name="room_member_power_level_admins">Admins</string>
     <string name="room_member_power_level_moderators">Moderators</string>
-    <string name="room_member_power_level_custom">Custom</string>
     <string name="room_member_power_level_invites">Invites</string>
     <string name="room_member_power_level_users">Users</string>
 
+    <string name="room_member_power_level_owner_in">Owner in %1$s</string>
     <string name="room_member_power_level_admin_in">Admin in %1$s</string>
     <string name="room_member_power_level_moderator_in">Moderator in %1$s</string>
     <string name="room_member_power_level_default_in">Default in %1$s</string>
-    <string name="room_member_power_level_custom_in">Custom (%1$d) in %2$s</string>
 
     <string name="room_member_open_or_create_dm">Direct message</string>
     <string name="room_member_jump_to_read_receipt">Jump to read receipt</string>
@@ -2718,6 +2717,8 @@
     <string name="review_unverified_sessions_description">Review to ensure your account is safe</string>
     <!-- Argument will be replaced by the other session name (e.g, Desktop, mobile) -->
     <string name="verify_this_session">Verify the new login accessing your account: %1$s</string>
+    <string name="verify_this_session_content">As of April 2026 unverified devices will not be able to send and receive messages.</string>
+    <string name="verify_now">Verify now</string>
 
     <string name="cross_signing_verify_by_text">Manually Verify by Text</string>
     <!-- TODO TO BE REMOVED -->
